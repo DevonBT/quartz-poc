@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dparsons\\work\\quartz-poc\\Quartz-Proof-Of-Concept\\Quartz-Proof-Of-Concept.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dparsons\\work\\quartz-poc\\Quartz-Proof-Of-Concept\\Quartz-Proof-Of-Concept.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dparsons\\work\\quartz-poc\\Quartz-Proof-Of-Concept\\Quartz-Proof-Of-Concept.csproj",
+        "projectName": "Quartz-Proof-Of-Concept",
+        "projectPath": "C:\\Users\\dparsons\\work\\quartz-poc\\Quartz-Proof-Of-Concept\\Quartz-Proof-Of-Concept.csproj",
+        "packagesPath": "C:\\Users\\dparsons\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dparsons\\work\\quartz-poc\\Quartz-Proof-Of-Concept\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dparsons\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://beyondtrust.jfrog.io/artifactory/api/nuget/eng-nuget-prod-local": {},
+          "https://beyondtrust.jfrog.io/artifactory/api/nuget/eng-nuget-qa-local": {},
+          "https://beyondtrust.jfrog.io/artifactory/api/nuget/v3/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.3.3, )"
+            },
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
